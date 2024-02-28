@@ -1,41 +1,14 @@
-header {
-    height: 100px;
-    width: 100%;
-    border-bottom: 10px solid #9aff35;
-    background-color: #96fff8;
-  }
-  
-  section {
-    width: 70%;
-    margin: 20px auto;
-    border-bottom: 5px solid rgb(77, 252, 83);
-    background-color: #4080ef;
-  }
-  
-  h1 {
-    text-align: center;
-    line-height: 100px;
-  }
-  
-  h2 {
-    margin-bottom: 0;
-  }
-  
-  .example-box {
-    padding: 20px 40px;
-  }
-  
-  .image-padding {
-    padding: 20px;
-    background-color: #52f362;
-  }
-  
-  .image-border {
-    border: 10px solid rgb(8, 238, 85);
-  }
-  
-  .image-margin {
-    /* Sets all sides to 20px */
-    margin: 20px;
-  }
-  
+body {
+  background-color: pink; /* Sets the background color to pink */
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Sets the height of the body to full viewport height */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+img {
+  padding: 10px; /* Adds padding around the image */
+  background-color: darkgreen; /* Sets the background color behind the image to dark green */
+}
